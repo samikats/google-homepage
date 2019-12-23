@@ -79,39 +79,43 @@ body{
   margin-top:30px;
   -webkit-appearance: none;
 }
+.search-btn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-appearance: none;
+    
+}
 #google-search{
   display: inline;
-  margin-left:308px; 
-  padding-right: 20px;
-  padding-left:20px;
-  padding-top: auto;
-  padding-bottom: auto;
-  color: #5F6368;
   height: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #5f6368;
   font-size: 15px;
   font-family: Arial,sans-serif;
   border: 1px solid #f2f2f2;
   border-radius: 3px;
   cursor: pointer;
   -webkit-appearance: none;
-
+  
 }
 #feeling-lucky{
   display: inline;
-  margin: 15px; 
-  padding-right: 20px;
-  padding-left:20px;
-  padding-top: auto;
-  padding-bottom: auto;
   height: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 16px;
+  color: #5f6368;
   font-size: 15px;
   font-family: Arial,sans-serif;
   border: 1px solid #f2f2f2;
   border-radius: 3px;
-  color:#5F6368;
   cursor: pointer;
   -webkit-appearance: none;
 }
+
 #feeling-lucky:hover{
    background-color: f8f8f8;
    border: 1px solid #c6c6c6;
